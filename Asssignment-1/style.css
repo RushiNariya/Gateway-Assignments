@@ -1,0 +1,198 @@
+.container{
+	display:block;
+	height: 100px;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:left;
+	color:#C0BAB6;
+	background-color:#b3b3b3;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#header{
+	padding:20px 0;
+}
+
+#header #logo{
+	float:left;
+	padding-top: 7px;
+}
+
+#header #logo h1{
+	font-weight: bold;
+	font-family:sans-serif;
+	font-size:40px;
+}
+
+#header #logo h1 a{
+	color: #000000;
+	text-decoration: none;
+	padding-left: 30px;
+}
+
+h1{
+	margin:0;
+	font-weight:normal;
+}
+
+
+#header nav{
+	display:block;
+	float:right;
+	margin:10px 0 0 0;
+	padding:20px 0;
+	color:#C0BAB6;
+}
+
+#header nav ul{
+	padding:0 20px;
+}
+
+#header nav li{
+	display:inline;
+	margin-right:25px;
+}
+
+#header nav li.last{
+	margin-right:0;
+}
+
+#header nav li a{
+	color:#000000;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#header nav li a:hover{
+	color:#f43e3e;
+}
+
+.banner{
+	float:left;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding-top:20px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	color:#000000;
+	background-color:#b3b3b3;
+}
+
+#punchline{
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 70px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold; 
+}
+
+.banner a:link, a:visited{
+	background-color: #3333cc;
+	border: 2px solid white;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;	
+}
+
+
+#readMore{
+	display:block; 
+	float:left; 
+	margin:0 0 0 70px;
+}
+
+
+#description{
+	text-align: center;
+	padding: 0 50px;
+	line-height: 1.5;
+}
+
+.row{
+	margin-left:50px;
+	box-sizing:border-box;
+}
+
+.column {
+
+	float: left;
+	width: 30%;
+	margin: 20px 1.15%;
+	height: 160px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #b3b3b3;
+}
+
+.box {
+	display: flex;
+	text-transform: uppercase;
+	padding-top: 60px;
+	align-items: center;
+	justify-content: center;
+}
+
+.client{
+	float: left;
+	width: 14%;
+	margin: 15px 1.15%;
+	height: 160px;
+	background-color: #b3b3b3;
+
+}
+
+footer{
+	position: relative;
+	float:left;
+	width: 100%;
+	background-color:#b3b3b3; 
+}
+
+#address{
+
+	top: 8px;
+	left: 16px;
+
+}
+
+#links{
+
+	top: 8px;
+	right: 16px;
+}
+
+#copyright{
+
+	bottom: 8px;
+	left: 16px;
+}
+
+#privacy{
+	
+	bottom: 8px;
+	right: 16px;
+}
+
+#address, #privacy, #copyright, #links{
+	color: #000000;
+	position: absolute;
+	font-size: 18px;
+}
+
+
+.row h3{
+		text-transform: uppercase;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: center;
+	}
