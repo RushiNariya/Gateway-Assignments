@@ -1,0 +1,210 @@
+.wrapper{
+	display:block;
+	height: 100px;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:left;
+	color:#C0BAB6;
+	background-color:#b3b3b3;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#header{
+	padding:20px 0;
+}
+
+#header #hgroup{
+	float:left;
+	padding-top: 7px;
+}
+
+#header #hgroup h1{
+	font-weight: bold;
+	font-family:sans-serif;
+	font-size:40px;
+}
+
+#header #hgroup h1 a{
+	color: #000000;
+	text-decoration: none;
+	padding-left: 30px;
+}
+
+h1{margin:0;
+	font-weight:normal;
+}
+
+
+#header nav{
+	display:block;
+	float:right;
+	margin:10px 0 0 0;
+	padding:20px 0;
+	color:#C0BAB6;
+}
+
+#header nav ul{
+	padding:0 20px;
+}
+#header nav li{
+	display:inline;
+	margin-right:25px;
+}
+#header nav li.last{
+	margin-right:0;
+}
+#header nav li a{
+	color:#000000;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#header nav li a:hover{
+	color:#f43e3e;
+}
+
+.banner{
+	float:left;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding-top:20px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	color:#000000;
+	background-color:#b3b3b3;
+}
+
+#punchline{
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 70px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold; 
+}
+
+.banner a:link, a:visited{
+	background-color: #3333cc;
+	border: 2px solid white;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;	
+}
+
+
+#readMore{
+	display:block; 
+	float:left; 
+	margin:0 0 0 70px;
+}
+
+#description{
+	text-align: center;
+	padding: 0 50px;
+	line-height: 1.5;
+}
+
+.section1{
+	float:left;
+	width: 100%;
+	text-align: center;
+	padding:50px 10px;
+	margin-bottom:0px;
+	margin-left: 30px;
+}
+
+.section2 .content, .section1 .content{
+	float:left;
+	width: 100%;
+}
+
+.section1 .content .card{
+	width:30%;
+	float: left;
+	padding:0px 10px;
+}
+
+.section1 .content .card .box{
+	background-color:#b3b3b3;
+	font-size:30px;
+	text-transform: uppercase;
+	color:#000000;
+	font-family: sans-serif;
+	padding:60px 15px;
+}
+
+.section2 h1{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.section2{
+	float:left;
+	width: 100%;
+	text-align: center;
+	padding:50px 10px;
+	margin-bottom:20px;
+	margin-left: 0px;
+}
+
+.section2 .content .card{
+	width:15%;
+	float: left;
+	padding:0px 10px;
+}
+
+.section2 .content .card .box{
+	margin-top: 40px;
+	background-color:#b3b3b3;
+	padding:50px 10px;
+}
+
+footer{
+	position: relative;
+	float:left;
+	width: 100%;
+	background-color:#b3b3b3; 
+}
+
+#address{
+
+	top: 8px;
+	left: 16px;
+
+}
+#links{
+
+	top: 8px;
+	right: 16px;
+}
+
+#copyright{
+
+	bottom: 8px;
+	left: 16px;
+}
+
+
+#privacy{
+	
+	bottom: 8px;
+	right: 16px;
+}
+
+#address, #privacy, #copyright, #links{
+	color: #000000;
+	position: absolute;
+		font-size: 18px;
+}
+
