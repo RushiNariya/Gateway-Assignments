@@ -1,0 +1,64 @@
+﻿@model SourceControlAssignment1.ViewModels.CustomerMembershipViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (@Html.BeginForm("Save", "Customers", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true, "Please fix the following errors.")
+    <div class="form-group">
+        @Html.LabelFor(c => c.Customer.Name)
+        @Html.TextBoxFor(c => c.Customer.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Customer.Name)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(c => c.Customer.Email)
+        @Html.TextBoxFor(c => c.Customer.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Customer.Email)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(c => c.Customer.ConfirmEmail)
+        @Html.TextBoxFor(c => c.Customer.ConfirmEmail, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Customer.ConfirmEmail)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(c => c.Customer.PhoneNumber)
+        @Html.TextBoxFor(c => c.Customer.PhoneNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Customer.PhoneNumber)
+    </div>
+    <div class="checkbox">
+        <label>
+            @Html.CheckBoxFor(c => c.Customer.IsSubscribedToNewsletter) Subscribed To News Letter?
+            @Html.ValidationMessageFor(c => c.Customer.IsSubscribedToNewsletter)
+        </label>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Customer.MembershipTypeId)
+        @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "MembershipName"), "Select Membership Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Customer.MembershipTypeId)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Customer.BirthDate)
+        @Html.TextBoxFor(c => c.Customer.BirthDate, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Customer.BirthDate)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Customer.Age)
+        @Html.TextBoxFor(c => c.Customer.Age, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Customer.Age)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(p => p.Customer.PhotoPath)
+        <input type="file" class="form-control" name="Customer.Photo" required />
+        @Html.ValidationMessageFor(c => c.Customer.Photo)
+    </div>
+
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-primary">Save</button>
+}
