@@ -4,12 +4,14 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace SourceControlAssignment1.Models
 {
+    [Bind(Exclude = "Id")]
     public class Customer
     {
-        [Required]
+        [ScaffoldColumn(false)]
         public int Id { get; set; }
 
         [Display(Name = "Customer Name")]
@@ -31,7 +33,7 @@ namespace SourceControlAssignment1.Models
         [Required(ErrorMessage = "Please enter customer's Email.")]
         [DataType(DataType.EmailAddress)]
         [MaxLength(50)]
-        [Compare("Email", ErrorMessage = "Email Not Matched")]
+        [System.ComponentModel.DataAnnotations.Compare("Email", ErrorMessage = "Email Not Matched")]
         public string ConfirmEmail { get; set; }
 
         [Display(Name = "Customer Phone Number")]
@@ -43,7 +45,7 @@ namespace SourceControlAssignment1.Models
         [Display(Name = "Customer Photo")]
         public string PhotoPath { get; set; }
 
-        [Required(ErrorMessage = "Pleease Enter Customer Photo.")]
+        [Required(ErrorMessage = "Please Enter Customer Photo.")]
         [FileExtension]
         [NotMapped]
         public HttpPostedFileBase Photo { get; set; }
@@ -60,5 +62,9 @@ namespace SourceControlAssignment1.Models
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy hh:mm:ss tt}")]
         [Min18YearsIfAMember]
         public DateTime? BirthDate { get; set; }
+
+        [Url]
+        [Display(Name = "Customer's LinkedIn URL")]
+        public string URL { get; set; }
     }
 }

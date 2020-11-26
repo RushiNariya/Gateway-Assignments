@@ -202,6 +202,10 @@
     <Compile Include="Migrations\202011241629276_AddedCustomerAge.Designer.cs">
       <DependentUpon>202011241629276_AddedCustomerAge.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011260712349_AddedCustomerURL.cs" />
+    <Compile Include="Migrations\202011260712349_AddedCustomerURL.Designer.cs">
+      <DependentUpon>202011260712349_AddedCustomerURL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -311,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011241629276_AddedCustomerAge.resx">
       <DependentUpon>202011241629276_AddedCustomerAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011260712349_AddedCustomerURL.resx">
+      <DependentUpon>202011260712349_AddedCustomerURL.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
