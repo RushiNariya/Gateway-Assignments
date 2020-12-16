@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-//using log4net;
+using log4net;
 
 namespace SourceControlFinalAssignment.ExceptionHandling
 {
     public class UserExceptionHandler : HandleErrorAttribute
     {
-		//private static readonly ILog Log = LogManager.GetLogger(typeof(ProductExceptionHandler));
+        private static readonly ILog Log = LogManager.GetLogger(typeof(UserExceptionHandler));
 
-		public override void OnException(ExceptionContext filterContext)
+        public override void OnException(ExceptionContext filterContext)
 		{
 			if (filterContext.Exception is NullReferenceException)
 			{
-				//Log.Error("NullReferanceException exception occured :" + filterContext.Exception.Message);
+				Log.Error("NullReferanceException exception occured :" + filterContext.Exception.Message);
 				var controllerName = (string)filterContext.RouteData.Values["controller"];
 				var actionName = (string)filterContext.RouteData.Values["action"];
 
@@ -31,7 +31,7 @@ namespace SourceControlFinalAssignment.ExceptionHandling
 			}
 			else if (filterContext.Exception is NotImplementedException)
 			{
-				//Log.Error("NotImplementedException exception occured :" + filterContext.Exception.Message);
+				Log.Error("NotImplementedException exception occured :" + filterContext.Exception.Message);
 				var controllerName = (string)filterContext.RouteData.Values["controller"];
 				var actionName = (string)filterContext.RouteData.Values["action"];
 
@@ -47,7 +47,7 @@ namespace SourceControlFinalAssignment.ExceptionHandling
 			}
 			else if (filterContext.Exception is InvalidOperationException)
 			{
-				//Log.Error("InvalidOperationException exception occured :" + filterContext.Exception.Message);
+				Log.Error("InvalidOperationException exception occured :" + filterContext.Exception.Message);
 				var controllerName = (string)filterContext.RouteData.Values["controller"];
 				var actionName = (string)filterContext.RouteData.Values["action"];
 
@@ -63,7 +63,7 @@ namespace SourceControlFinalAssignment.ExceptionHandling
 			}
 			else if (filterContext.Exception is Exception)
 			{
-				//Log.Error("Exception exception occured :" + filterContext.Exception.Message);
+				Log.Error("Exception exception occured :" + filterContext.Exception.Message);
 				var controllerName = (string)filterContext.RouteData.Values["controller"];
 				var actionName = (string)filterContext.RouteData.Values["action"];
 
@@ -78,8 +78,6 @@ namespace SourceControlFinalAssignment.ExceptionHandling
 				filterContext.ExceptionHandled = true;
 			}
 
-
-			//filterContext.HttpContext.IsCustomErrorEnabled
 			base.OnException(filterContext);
 		}
 	}

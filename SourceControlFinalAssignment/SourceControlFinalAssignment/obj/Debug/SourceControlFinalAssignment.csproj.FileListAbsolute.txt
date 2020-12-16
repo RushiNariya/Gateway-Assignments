@@ -108,3 +108,5 @@ C:\Users\Rushi_Nariya\source\repos\SourceControlFinalAssignment\SourceControlFin
 C:\Users\Rushi_Nariya\source\repos\SourceControlFinalAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.pdb
 C:\Users\Rushi_Nariya\source\repos\SourceControlFinalAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.Migrations.commit10.resources
 C:\Users\Rushi_Nariya\source\repos\SourceControlFinalAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.csproj.GenerateResource.cache
+C:\Users\Rushi_Nariya\source\repos\SourceControlFinalAssignment\SourceControlFinalAssignment\bin\log4net.dll
+C:\Users\Rushi_Nariya\source\repos\SourceControlFinalAssignment\SourceControlFinalAssignment\bin\log4net.xml

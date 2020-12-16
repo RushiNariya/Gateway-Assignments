@@ -10,12 +10,15 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using SourceControlFinalAssignment.Models;
+using log4net;
 
 namespace SourceControlFinalAssignment.Controllers
 {
     [Authorize]
     public class AccountController : Controller
     {
+        private static readonly ILog Log = LogManager.GetLogger(typeof(AccountController));
+
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -58,6 +61,7 @@ namespace SourceControlFinalAssignment.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            Log.Debug("Login page is accessed.");
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
@@ -80,8 +84,10 @@ namespace SourceControlFinalAssignment.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
+                    Log.Info("User Login with Email: " + model.Email);
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
+                    Log.Info("User Logout with Name: " + model.Email);
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
@@ -140,6 +146,7 @@ namespace SourceControlFinalAssignment.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
+            Log.Debug("Registration page is accessed.");
             return View();
         }
 
@@ -173,13 +180,13 @@ namespace SourceControlFinalAssignment.Controllers
                 if (result.Succeeded)
                 {
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
-                    
+
                     // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
                     // Send an email with this link
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
-
+                    Log.Info("User registered with Email: " + model.Email);
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);
