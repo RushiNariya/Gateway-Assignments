@@ -1,16 +1,14 @@
-2020-12-16 00:25:53,350 [10] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - Redirect to login from user details page.
-2020-12-16 00:25:58,528 [12] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Login page is accessed.
-2020-12-16 00:26:56,347 [17] INFO  SourceControlFinalAssignment.Controllers.AccountController [(null)] - User Login with Email: RJNariya@gmail.com
-2020-12-16 00:26:56,910 [17] INFO  SourceControlFinalAssignment.Controllers.HomeController [(null)] - User details for username: RJNariya@gmail.com
-2020-12-16 00:27:03,504 [11] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - About action from Home controller is called.
-2020-12-16 00:27:06,979 [17] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - Contact action from Home controller is called.
-2020-12-16 00:27:15,069 [11] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - Redirect to login from user details page.
-2020-12-16 00:27:15,135 [13] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Login page is accessed.
-2020-12-16 00:27:17,081 [11] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Registration page is accessed.
-2020-12-16 00:28:55,740 [16] INFO  SourceControlFinalAssignment.Controllers.AccountController [(null)] - User registered with Email: Milanpatel@gmail.com
-2020-12-16 00:28:55,832 [11] INFO  SourceControlFinalAssignment.Controllers.HomeController [(null)] - User details for username: Milanpatel@gmail.com
-2020-12-16 00:29:00,504 [11] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - Redirect to login from user details page.
-2020-12-16 00:29:00,555 [20] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Login page is accessed.
-2020-12-16 00:31:17,110 [10] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - Redirect to login from user details page.
-2020-12-16 00:31:19,951 [12] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Login page is accessed.
-2020-12-16 00:32:32,959 [10] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Registration page is accessed.
+2020-12-21 10:38:39,860 [10] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - Redirect to login from user details page.
+2020-12-21 10:38:44,038 [11] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Login page is accessed.
+2020-12-21 10:40:15,402 [15] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Registration page is accessed.
+2020-12-21 10:42:21,047 [15] INFO  SourceControlFinalAssignment.Controllers.AccountController [(null)] - User registered with Email: RJNariya@gmail.com
+2020-12-21 10:42:21,540 [12] INFO  SourceControlFinalAssignment.Controllers.HomeController [(null)] - User details for username: RJNariya@gmail.com
+2020-12-21 10:42:48,473 [17] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - Redirect to login from user details page.
+2020-12-21 10:42:48,602 [15] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Login page is accessed.
+2020-12-21 10:42:54,947 [15] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Registration page is accessed.
+2020-12-21 10:45:59,653 [17] INFO  SourceControlFinalAssignment.Controllers.AccountController [(null)] - User registered with Email: RushiNariya@gmail.com
+2020-12-21 10:46:01,114 [15] INFO  SourceControlFinalAssignment.Controllers.HomeController [(null)] - User details for username: RushiNariya@gmail.com
+2020-12-21 10:46:30,405 [21] DEBUG SourceControlFinalAssignment.Controllers.HomeController [(null)] - Redirect to login from user details page.
+2020-12-21 10:46:30,612 [15] DEBUG SourceControlFinalAssignment.Controllers.AccountController [(null)] - Login page is accessed.
+2020-12-21 10:46:47,197 [12] INFO  SourceControlFinalAssignment.Controllers.AccountController [(null)] - User Login with Email: RJNariya@gmail.com
+2020-12-21 10:46:47,935 [24] INFO  SourceControlFinalAssignment.Controllers.HomeController [(null)] - User details for username: RJNariya@gmail.com
