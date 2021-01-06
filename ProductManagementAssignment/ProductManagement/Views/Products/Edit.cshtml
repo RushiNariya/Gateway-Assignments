@@ -1,0 +1,82 @@
+﻿@model ProductManagement.ViewModels.ProductCategoryViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="margin-top:1.5em;">Edit Product</h3>
+
+@using (@Html.BeginForm("EditPost", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(p => p.Product.Id)
+
+        @Html.HiddenFor(p => p.Product.SmallImagePath)
+        @Html.HiddenFor(p => p.Product.LargeImagePath)
+
+        <div class="form-group col-md-10">
+            @Html.LabelFor(p => p.Product.Name)
+                @Html.EditorFor(p => p.Product.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(p => p.Product.Name, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group col-md-10">
+            @Html.LabelFor(p => p.Product.CategoryId)
+                @Html.DropDownListFor(p => p.Product.CategoryId, new SelectList(Model.Categories, "Id", "Name"), "Select Category", new { @class = "form-control" })
+                @Html.ValidationMessageFor(p => p.Product.CategoryId)
+        </div>
+
+        <div class="form-group col-md-10">
+            @Html.LabelFor(p => p.Product.Price)
+                @Html.EditorFor(p => p.Product.Price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(p => p.Product.Price, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group col-md-10">
+            @Html.LabelFor(p => p.Product.Quantity)
+                @Html.EditorFor(p => p.Product.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(p => p.Product.Quantity, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group col-md-10">
+            @Html.LabelFor(p => p.Product.Short_Desc)
+            @Html.TextAreaFor(p => p.Product.Short_Desc, new { @class = "form-control" })
+            @Html.ValidationMessageFor(p => p.Product.Short_Desc)
+        </div>
+
+        <div class="form-group col-md-10">
+            @Html.LabelFor(p => p.Product.Long_Desc)
+            @Html.TextAreaFor(p => p.Product.Long_Desc, new { @class = "form-control" })
+            @Html.ValidationMessageFor(p => p.Product.Long_Desc)
+        </div>
+
+        <div class="form-group col-md-10">
+            @Html.LabelFor(p => p.Product.SmallImagePath)
+                <img src="@Url.Content(Model.Product.SmallImagePath)" height="70" width="100" />
+                <input type="file" class="form-control" name="Product.SmallImage" />
+                @Html.ValidationMessageFor(p => p.Product.SmallImage)
+        </div>
+
+        <div class="form-group col-md-10">
+            @Html.LabelFor(p => p.Product.LargeImagePath, htmlAttributes: new { @class = "control-label" })
+            @if (Model.Product.LargeImagePath != null)
+            {
+                <img src="@Url.Content(Model.Product.LargeImagePath)" height="70" width="100" />
+            }
+            <input type="file" class="form-control" name="Product.LargeImage" />
+        </div>
+
+        <div class="form-group col-md-10">
+            <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

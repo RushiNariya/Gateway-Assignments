@@ -1,0 +1,9 @@
+2021-01-02 21:13:07,561 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-02 21:13:07,708 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-02 21:13:12,117 [5] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-02 21:13:46,479 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-02 21:15:04,128 [6] ERROR ProductManagement.ExceptionHandling.ProductExceptionHandler [(null)] - Exception exception occured :One or more errors occurred.
+2021-01-02 21:15:04,140 [6] ERROR ProductManagement.ExceptionHandling.ProductExceptionHandler [(null)] - Exception exception occured :One or more errors occurred.
+2021-01-02 21:16:46,667 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-02 21:16:46,790 [9] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-02 21:16:48,625 [12] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.

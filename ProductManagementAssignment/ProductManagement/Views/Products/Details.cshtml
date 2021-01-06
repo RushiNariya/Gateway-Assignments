@@ -1,0 +1,61 @@
+﻿@model ProductManagement.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="margin-top:1.3em;">Product Details</h3>
+<hr />
+
+    <div class="row">
+        <div class="col-md-6">
+                <div class="row mx-4">
+                    <div class="col-12">
+
+                        <figure class="view overlay rounded z-depth-1 main-img">
+                            <img src="@Url.Content(Model.SmallImagePath)"
+                                 class="img-fluid z-depth-1">
+                        </figure>
+
+                    </div>
+                </div>
+        </div>
+
+        <div class="col-md-6">
+            <h5>@Model.Name</h5>
+            <p><span><strong>&#8377 @Model.Price</strong></span></p>
+            <span><strong>Discription</strong></span>
+            <p>
+                @Model.Short_Desc
+                <br />
+                @Model.Long_Desc
+            </p>
+            <div class="table-responsive">
+                <table class="table table-sm table-borderless mb-0">
+                    <tbody>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Quantity</strong></th>
+                            <td>@Model.Quantity</td>
+                        </tr>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Category</strong></th>
+                            <td>@Model.Category.Name</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            @if (Request.IsAuthenticated)
+            {
+                <a href="/Products/Edit/@Model.Id" class="btn btn-success">Edit</a>
+                <a href="/Products/Delete/@Model.Id" class="btn btn-danger">Delete</a>
+            }
+        </div>
+    </div>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+

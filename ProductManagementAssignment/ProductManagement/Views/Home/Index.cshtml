@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNet.Identity
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h3 style="margin:1.5em 0;display:flex;justify-content:center;flex-direction:row;">Product Management</h3>
+
+@if (Request.IsAuthenticated)
+{
+<h2 style="flex-direction:row;">Hello @User.Identity.GetUserName(), Welcome To My Product Shop!</h2>
+}
+else { 
+    <p>Please Login to Perform all functionality.</p>
+}

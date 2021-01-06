@@ -1,0 +1,204 @@
+2021-01-03 12:46:28,320 [5] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 12:46:28,426 [5] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:30:23,514 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:30:23,611 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:30:29,468 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 13:30:38,502 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:30:38,505 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:30:42,885 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 13:31:09,298 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 13:35:19,023 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:35:19,116 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:35:42,150 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:35:42,174 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:35:46,236 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 13:36:09,455 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 13:36:09,736 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Edited Product is updated into database by the admin
+2021-01-03 13:36:09,776 [13] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:36:09,778 [13] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:36:12,813 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:36:12,831 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:36:34,395 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 13:36:39,032 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 13:36:39,099 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Edited Product is updated into database by the admin
+2021-01-03 13:36:39,152 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:36:39,155 [11] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:36:41,392 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:36:41,401 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:36:48,700 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 13:37:08,148 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 13:37:08,191 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Edited Product is updated into database by the admin
+2021-01-03 13:37:08,279 [20] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:37:08,282 [20] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:37:10,631 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:37:10,645 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:37:16,452 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - product details is accessed by admin.
+2021-01-03 13:37:16,461 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - product details for product Id : 32 is accessed by the admin.
+2021-01-03 13:54:09,184 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:54:09,290 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:54:13,354 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:54:13,359 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:54:17,762 [16] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 13:54:33,321 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 13:54:33,638 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Edited Product is updated into database by the admin
+2021-01-03 13:54:33,673 [16] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:54:33,677 [16] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:54:38,360 [13] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 13:54:38,381 [13] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 13:57:10,177 [14] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 13:58:01,111 [13] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:00:54,429 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:01:34,919 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:05:29,628 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:06:00,026 [12] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:07:41,292 [12] ERROR ProductManagement.ExceptionHandling.ProductExceptionHandler [(null)] - Exception exception occured :One or more errors occurred.
+2021-01-03 14:07:41,308 [12] ERROR ProductManagement.ExceptionHandling.ProductExceptionHandler [(null)] - Exception exception occured :One or more errors occurred.
+2021-01-03 14:18:07,465 [12] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:18:07,569 [12] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:18:11,321 [12] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:18:11,327 [12] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:18:15,116 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - product delete is submitted by admin.
+2021-01-03 14:18:15,361 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - product with product Id : 31 is deleted by admin.
+2021-01-03 14:18:15,396 [16] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:18:15,399 [16] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:18:20,546 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:18:20,556 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:24:06,651 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:24:06,931 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:24:09,838 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:24:09,842 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:24:13,021 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 14:24:41,420 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 14:24:41,746 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Edited Product is updated into database by the admin
+2021-01-03 14:24:41,782 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:24:41,785 [9] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:24:46,764 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:24:46,794 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:24:49,903 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - product details is accessed by admin.
+2021-01-03 14:24:49,923 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - product details for product Id : 32 is accessed by the admin.
+2021-01-03 14:24:58,975 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:25:25,230 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:28:09,251 [12] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:28:37,041 [12] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:32:09,463 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:32:34,972 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:33:35,034 [11] INFO  ProductManagement.Controllers.ProductsController [(null)] - New Product is added into database by the admin
+2021-01-03 14:33:35,077 [13] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:33:35,083 [13] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:33:40,908 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:33:40,912 [11] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:33:46,638 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:33:46,670 [11] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:33:47,964 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:34:24,865 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:35:29,554 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:35:54,859 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:40:40,794 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:40:58,916 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:45:16,125 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:45:41,275 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:45:41,752 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - New Product is added into database by the admin
+2021-01-03 14:45:41,805 [12] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:45:41,815 [12] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:45:46,156 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:45:46,162 [11] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:45:50,172 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - product details is accessed by admin.
+2021-01-03 14:45:50,187 [11] INFO  ProductManagement.Controllers.ProductsController [(null)] - product details for product Id : 33 is accessed by the admin.
+2021-01-03 14:45:53,726 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 14:46:20,062 [16] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 14:46:45,437 [16] ERROR ProductManagement.ExceptionHandling.ProductExceptionHandler [(null)] - Exception exception occured :One or more errors occurred.
+2021-01-03 14:46:45,476 [16] ERROR ProductManagement.ExceptionHandling.ProductExceptionHandler [(null)] - Exception exception occured :One or more errors occurred.
+2021-01-03 14:49:14,585 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 14:49:54,031 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 14:49:54,386 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - New Product is added into database by the admin
+2021-01-03 14:49:54,419 [13] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:49:54,441 [13] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:49:57,536 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:49:57,562 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:50:03,086 [13] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 14:50:41,124 [3] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 14:50:41,215 [3] INFO  ProductManagement.Controllers.ProductsController [(null)] - Edited Product is updated into database by the admin
+2021-01-03 14:50:41,241 [16] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:50:41,243 [16] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:50:44,117 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:50:44,155 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:50:47,440 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 14:55:05,520 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:55:05,642 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:55:09,578 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 14:55:09,580 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 14:55:11,676 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - product details is accessed by admin.
+2021-01-03 14:55:11,966 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - product details for product Id : 34 is accessed by the admin.
+2021-01-03 14:55:30,317 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - product details is accessed by admin.
+2021-01-03 14:56:07,457 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - product details for product Id : 33 is accessed by the admin.
+2021-01-03 15:04:53,423 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 15:04:53,550 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 15:04:56,286 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 15:04:56,320 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 15:05:15,397 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Multiple product delete is submitted by admin.
+2021-01-03 15:05:15,736 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - 2 products deleted by admin.
+2021-01-03 15:05:15,775 [13] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 15:05:15,777 [13] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 15:05:20,079 [11] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 15:05:20,084 [11] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:20:53,374 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:35:30,077 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:41:23,940 [6] ERROR ProductManagement.ExceptionHandling.ProductExceptionHandler [(null)] - Exception exception occured :One or more errors occurred.
+2021-01-03 17:41:23,951 [6] ERROR ProductManagement.ExceptionHandling.ProductExceptionHandler [(null)] - Exception exception occured :One or more errors occurred.
+2021-01-03 17:46:27,125 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:46:27,259 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:46:35,066 [12] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:46:35,102 [12] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:46:38,814 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 17:47:20,279 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New Product is submitted by the admin.
+2021-01-03 17:47:20,642 [9] INFO  ProductManagement.Controllers.ProductsController [(null)] - New Product is added into database by the admin
+2021-01-03 17:47:20,685 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:47:20,688 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:47:24,587 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:47:24,590 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:47:32,558 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 17:47:57,788 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 17:47:57,908 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Edited Product is updated into database by the admin
+2021-01-03 17:47:57,950 [16] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:47:57,952 [16] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:48:01,157 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:48:01,160 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:48:08,832 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - product details is accessed by admin.
+2021-01-03 17:48:08,883 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - product details for product Id : 35 is accessed by the admin.
+2021-01-03 17:48:15,483 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:48:15,488 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:48:20,236 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:48:20,238 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:48:30,670 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - product delete is submitted by admin.
+2021-01-03 17:48:30,694 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - product with product Id : 35 is deleted by admin.
+2021-01-03 17:48:30,756 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:48:30,784 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:48:34,019 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:48:34,053 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:48:55,265 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:48:55,288 [9] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:48:57,431 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:48:57,442 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:49:00,494 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:49:00,505 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:49:05,611 [23] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:49:05,632 [23] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:49:15,955 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Multiple product delete is submitted by admin.
+2021-01-03 17:49:16,023 [9] INFO  ProductManagement.Controllers.ProductsController [(null)] - 2 products deleted by admin.
+2021-01-03 17:49:16,126 [23] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:49:16,131 [23] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:49:19,414 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:49:19,418 [9] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:49:31,174 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 17:49:44,728 [22] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edited Product is submitted by the admin.
+2021-01-03 17:49:44,816 [22] INFO  ProductManagement.Controllers.ProductsController [(null)] - Edited Product is updated into database by the admin
+2021-01-03 17:49:44,846 [21] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:49:44,850 [21] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:49:47,741 [9] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:49:47,760 [9] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 17:49:51,205 [21] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Edit product Form page is accessed by admin.
+2021-01-03 17:49:53,584 [22] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 17:49:53,600 [22] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2021-01-03 22:52:44,422 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
+2021-01-03 22:57:52,256 [10] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2021-01-03 22:57:52,377 [10] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.

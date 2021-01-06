@@ -1,0 +1,136 @@
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.Tests.dll.config
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.Tests.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.Tests.pdb
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Helpers.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Mvc.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Razor.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Optimization.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Owin.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\EntityFramework.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.pdb
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.dll.config
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Helpers.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Mvc.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Razor.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Optimization.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\EntityFramework.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.csprojAssemblyReference.cache
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.csproj.CopyComplete
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.pdb
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\PagedList.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\PagedList.Mvc.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\WebGrease.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\PagedList.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\PagedList.Mvc.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\Antlr3.Runtime.pdb
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\log4net.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\log4net.xml
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\VisualStudioProjects\ProductManagement\ProductManagement.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.Tests.dll.config
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.Tests.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.Tests.pdb
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\EntityFramework.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\log4net.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\PagedList.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\PagedList.Mvc.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Helpers.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Mvc.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Razor.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Optimization.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Owin.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\WebGrease.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.pdb
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\ProductManagement.dll.config
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\EntityFramework.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\log4net.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\PagedList.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\PagedList.Mvc.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Helpers.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Mvc.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Razor.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Optimization.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\Antlr3.Runtime.pdb
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.csprojAssemblyReference.cache
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.csproj.CoreCompileInputs.cache
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.csproj.CopyComplete
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\obj\Debug\ProductManagement.Tests.pdb
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Http.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Http.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\GitHub Folder\ProductManagement\ProductManagement.Tests\bin\Debug\System.Net.Http.Formatting.xml

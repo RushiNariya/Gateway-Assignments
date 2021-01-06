@@ -1,0 +1,160 @@
+﻿@using Microsoft.AspNet.Identity
+
+@using PagedList;
+
+@using PagedList.Mvc;
+
+@model IPagedList<ProductManagement.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="margin-top:1.3em;">Product List</h3>
+<hr />
+
+@if (TempData["Delete_Message"] != null)
+{
+    <div id="singleDelete">
+        <div class="col-lg-10 alert alert-dismissible alert-success" style="display:flex;justify-content:center;flex-direction:row;margin:auto;">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Success!</strong> @TempData["Delete_Message"].
+        </div>
+    </div>
+}
+
+<script>
+    setTimeout(function () {
+        $('#singleDelete').fadeOut('fast');
+    }, 2000);
+</script>
+
+@if (TempData["Multi_Delete"] != null)
+{
+    <div id="multiDelete">
+        <div class="col-lg-10 alert alert-dismissible alert-success" style="display:flex;justify-content:center;flex-direction:row;margin:auto;">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Success!</strong> @TempData["Multi_Delete"].
+        </div>
+    </div>
+}
+
+<script>
+    setTimeout(function () {
+        $('#multiDelete').fadeOut('fast');
+    }, 2000);
+</script>
+
+@if (TempData["Update_Message"] != null)
+{
+    <div id="updateProduct">
+        <div class="col-lg-10 alert alert-dismissible alert-success" style="display:flex;justify-content:center;flex-direction:row;margin:auto;">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Success!</strong> @TempData["Update_Message"].
+        </div>
+    </div>
+}
+
+<script>
+    setTimeout(function () {
+        $('#updateProduct').fadeOut('fast');
+    }, 2000);
+</script>
+
+@if (TempData["New_Product"] != null)
+{
+    <div id="newProduct">
+        <div class="col-lg-10 alert alert-dismissible alert-success" style="display:flex;justify-content:center;flex-direction:row;margin:auto;">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Success!</strong> @TempData["New_Product"].
+        </div>
+    </div>
+
+}
+
+<script>
+    setTimeout(function () {
+        $('#newProduct').fadeOut('fast');
+    }, 2000);
+</script>
+
+@using (Html.BeginForm("Index", "Products", FormMethod.Get))
+{
+    //the following are search options
+
+    <div class="container">
+        <div class="row" style="margin-bottom:5px;">
+            <select class="form-control" id="option" name="option">
+                <option value="">Select Category</option>
+                <option value="Name" selected>Name</option>
+                <option value="Cotegory">Cotegory</option>
+            </select>
+
+            <input class="form-control" id="search" name="search" type="text" placeholder="Search Your Product" />
+            <input class="btn btn-info" type="submit" name="submit" value="Search" />
+        </div>
+    </div>
+}
+
+@Html.ActionLink("Name", "Index", new { sort = ViewBag.SortByName, option = Request.QueryString["option"], search = Request.QueryString["search"] }, new { @class = "btn btn-primary fa fa-sort" })
+@Html.ActionLink("Cotegory", "Index", new { sort = ViewBag.SortByCotegory, option = Request.QueryString["option"], search = Request.QueryString["search"] }, new { @class = "fa fa-sort btn btn-primary" })
+
+@if (Model.Count() == 0)
+{
+    <h2>Products Not Found</h2>
+}
+else
+{
+    using (Html.BeginForm("MultipleDelete", "Products", FormMethod.Post))
+    {
+        if (Request.IsAuthenticated)
+        {
+            <button type="submit" value="Delete" class="btn btn-danger" style="margin-top:5px;" onclick="return confirm('Are you sure?')">Delete</button>
+        }
+        <div class="container">
+            <div class="row">
+                @foreach (var product in Model)
+                {
+                    <div class="card col-lg-4 col-md-6 col-sm-12" style="margin:5px 0;">
+                        <h4 class="card-header">
+                            <b>@product.Name</b>
+                            @if (Request.IsAuthenticated)
+                            {
+                                <input type="checkbox" name="Id" value="@product.Id" class="custom-checkbox chkCheckBoxId" style="float:right;margin:10px 0;" />
+                            }
+                        </h4>
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Category.Name</h5>
+                        </div>
+                        <svg class="d-block user-select-none" width="100%" height="100%" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid" viewBox="0 0 318 180">
+                            <image href="@Url.Content(product.SmallImagePath)" height="250" width="330" />
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">@product.Short_Desc</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><span>&#8377;</span>@product.Price</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="/Products/Details/@product.Id" class="btn btn-secondary">Details</a>
+                            @if (Request.IsAuthenticated)
+                            {
+                                <a href="/Products/Edit/@product.Id" class="btn btn-success">Edit</a>
+                                <a href="/Products/Delete/@product.Id" class="btn btn-danger">Delete</a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+}
+
+@Html.PagedListPager(Model, pageNumber => Url.Action("Index", new
+{
+    pageNumber,
+    option = Request.QueryString["option"],
+    search = Request.QueryString["search"],
+    sort = Request.QueryString["sort"]
+}))

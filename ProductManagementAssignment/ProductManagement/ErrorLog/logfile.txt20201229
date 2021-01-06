@@ -1,0 +1,9 @@
+2020-12-29 16:30:13,658 [5] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2020-12-29 16:30:14,137 [5] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2020-12-29 16:30:20,802 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2020-12-29 16:30:20,804 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2020-12-29 16:30:23,801 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2020-12-29 16:30:23,873 [6] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2020-12-29 17:29:11,010 [8] DEBUG ProductManagement.Controllers.ProductsController [(null)] - Product list is accessed by the admin.
+2020-12-29 17:29:11,115 [8] INFO  ProductManagement.Controllers.ProductsController [(null)] - Product list is passed to the view.
+2020-12-29 17:29:14,196 [6] DEBUG ProductManagement.Controllers.ProductsController [(null)] - New product Form page is accessed by admin.
