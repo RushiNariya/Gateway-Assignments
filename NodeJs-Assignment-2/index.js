@@ -1,5 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const path = require('path')
 const db = require('./queries')
 
 var multer  = require('multer');
@@ -34,6 +35,8 @@ app.use(
     extended: true,
   })
 )
+
+app.use('/uploads', express.static('./uploads'))
 
 app.get('/', (request, response) => {
   response.json({ info: 'Node.js, Express, and Postgres API' })

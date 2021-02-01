@@ -7,7 +7,7 @@ const pool = new Pool({
   port: 5432,
 })
 
-
+//Get All Cars
 const getCars = (request, response) => {
   pool.query('SELECT car.name as CarName, model.name as ModelName, make.name as MakerName FROM car JOIN model ON car.modelid = model.id JOIN make ON car.makeid = make.id;', (error, results) => {
     if (error) {
@@ -17,13 +17,14 @@ const getCars = (request, response) => {
   })
 }
 
+// Get All Cars with Images
 const getCarsWithImages = (request, response) => {
-  pool.query('SELECT car.id as id, car.name as CarName, model.name as ModelName, make.name as MakerName, carimage.imagename as image from car JOIN model ON car.modelid = model.id JOIN make ON car.makeid = make.id left join carimage on car.id = carimage.carid;', (error, results) => {
+  pool.query('SELECT car.id as id, car.name as CarName, model.name as ModelName,  make.name as MakerName, array_agg(carimage.imagename) as image from car left join carimage on car.id = carimage.carid JOIN model ON car.modelid = model.id  JOIN make ON car.makeid = make.id  GROUP BY car.id ,CarName, ModelName, MakerName order by car.id ;', (error, results) => {
     if (error) {
       throw error
     }
     // console.log('------------------------')
-
+/*
     const updateRows = [];
 
     // console.log(results.rows)
@@ -48,11 +49,26 @@ results.rows = [...updateRows]
     // console.log('------------------------')
 
     //console.log(results)
+*/  
+    const temp = results.rows.map((car) => {
+      if(car.image[0] != null){
+          newImage = car.image.map((image) => {
+              return "http://localhost:3000/uploads/images/" + image;
+          });
+          car.image = [...newImage];
+          return car;
+      }
+      else{
+        return car;
+      }
+    })
+
+    results.rows = [...temp] 
     response.status(200).json(results.rows)
   })
 }
 
-
+//Get Car by Id
 const getCarById = (request, response) => {
   const id = parseInt(request.params.id)
 
@@ -65,101 +81,7 @@ const getCarById = (request, response) => {
   })
 }
 
-//----------------------------------------------------------------------------------------------------
-// const checkmake =async (modelid, makename, carname) =>{
-//   let makeid;
-//   console.log('hello1sasf')
-//   pool.query('select * from make where name = $1', [makename], (error, results) => {
-//     if (results.rows.length > 0) {
-//       makeid = results.rows[0].id
-//       console.log('makeid: ' + makeid)
-//       pool.query('insert into car (name, modelid, makeid) values ($1, $2, $3)', [carname, modelid, makeid], (error, results) => {
-//         console.log('car added')
-//         return `car added successfully`
-//       })
-//     }
-//     else {
-//       pool.query('insert into make (name) values ($1)', [makename], (error, results) => {
-//         if (results.rowCount > 0) {
-//           pool.query('select * from make where name = $1', [makename], (error, results) => {
-//             if (results.rows.length > 0) {
-//               makeid = results.rows[0].id
-//               pool.query('insert into car (name, modelid, makeid) values ($1, $2, $3)', [carname, modelid, makeid], (error, results) => {
-//                 return `car added successfully`
-//               })
-//             }
-//           })
-//         }
-//       })
-//     }
-//   })
-// }
-
-// const createCar = async (request, response) => {
-//   let carname  = (request.body.carname).toString();
-//   let makename  = request.body.makename;
-//   let modelname  = request.body.modelname;
-
-//   //pool.query('INSERT INTO users (username, email) VALUES ($1, $2)', [name, email], (error, results) => {
-//     //check car exist or not
-//   pool.query('select * from car where name = $1',[carname], (error, results) => {
-//     //console.log(results)
-//     if (error) {
-//       throw error
-//     }
-//     if(results.rows.length > 0){
-//         console.log('car exist')
-//         response.status(201).send(`car already exists`)
-//     }
-//     else{
-//       pool.query('select * from model where name = $1',[modelname],(error, results) => {
-//         let modelid;
-//           if(results.rows.length > 0){
-//             modelid = results.rows[0].id;
-//             console.log('modelid : ' + modelid)
-//             checkmake(modelid, makename, carname).then((value) => {
-//               console.log(`inside then`)
-//               console.log('value: ' + value)
-//               response.status(201).send(value)
-//             }).catch((err) => {
-//               respons.send(`sorry`)
-//             });
-//           }
-//           else{
-//             pool.query('insert into model (name) values ($1)',[modelname], (error, results) => {
-//               if(results.rowCount > 0){
-//                 console.log('inserted model')
-//                 pool.query('select * from model where name = $1',[modelname], (error, results) => {
-//                   if(results.rows.length > 0){
-//                     modelid = results.rows[0].id;
-//                     console.log('modelid : ' + modelid)
-//                     checkmake(modelid, makename, carname).then((value) => {
-//                       console.log(`inside then`)
-//                       console.log('value: ' + value)
-//                       response.status(201).send(value)
-//                     }).catch((err) => {
-//                       response.send(`sorry`)
-//                     });
-//                   }
-//                 })
-//               }
-//             })
-//           }
-//       })
-//     }
-//     //check model exist or not
-
-
-//   })
-// }
-
-//-----------------------------------------------------------------------------------------------------
-
-
-
-// SELECT car.name, model.name, make.name FROM car JOIN model ON car.modelid = model.id JOIN make ON car.makeid = make.id;
-//----------------------------------------------
-
+//Create New Car
 const createCar = async (request, response) => {
   let carname = request.body.carname;
   let makename = request.body.makename;
@@ -212,6 +134,7 @@ const createCar = async (request, response) => {
   }
 }
 
+//Update Car
 const updateCar = async (request, response) => {
 
   const id = parseInt(request.params.id)
@@ -267,6 +190,7 @@ const updateCar = async (request, response) => {
 
 }
 
+//Upload Car Image
 const uploadCarImage = async (request, response) => {
   const carId = parseInt(request.params.id)
   let createdDate = new Date();
