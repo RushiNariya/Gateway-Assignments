@@ -20,7 +20,6 @@ var storage = multer.diskStorage({
     cb(null, 'image-' + Date.now() + '.' + filetype);
   }
 });
-
 var upload = multer({ storage: storage });
 
 
@@ -30,6 +29,7 @@ var router = express.Router({
 
 var ensureToken = require('../../utilities/ensure-token.js');
 
+//--------------------------------------------------------------
 /**
  *  Get All Cars
  */
@@ -37,7 +37,9 @@ var getAllCarsCtrl = require('../controllers/user-management/get-all-cars.js');
 router.get("/all", ensureToken, function (req, res) {
   return getAllCarsCtrl.getAllCars(req, res);
 });
+//--------------------------------------------------------------
 
+//--------------------------------------------------------------
 /**
  *  Get Car By Id
  */
@@ -45,7 +47,9 @@ var getCarByIdCtrl = require("../controllers/user-management/get-car-by-id.js");
 router.get("/:id", ensureToken, function (req, res) {
   return getCarByIdCtrl.getCarById(req, res);
 });
+//--------------------------------------------------------------
 
+//--------------------------------------------------------------
 /**
  *  Create Car
  */
@@ -53,7 +57,9 @@ var addNewCarCtrl = require("../controllers/user-management/create-car.js");
 router.post("/cars", ensureToken, function (req, res) {
   return addNewCarCtrl.createNewCar(req, res);
 });
+//----------------------------------------------------------------
 
+//----------------------------------------------------------------
 /**
  *  Upload Image Car
  */
@@ -61,7 +67,9 @@ var uploadCarImageCtrl = require("../controllers/user-management/upload-car-imag
 router.post("/upload/:id", ensureToken, upload.single('carpicture'), function (req, res) {
   return uploadCarImageCtrl.uploadCarImage(req, res);
 });
+//----------------------------------------------------------------
 
+//----------------------------------------------------------------
 /**
  *  Update Car
  */
@@ -69,5 +77,16 @@ var updateCarCtrl = require("../controllers/user-management/update-car.js");
 router.put("/:id", ensureToken, function (req, res) {
   return updateCarCtrl.updateCar(req, res);
 });
+//----------------------------------------------------------------
+
+//----------------------------------------------------------------
+/**
+ *  Delete Car
+ */
+var deleteCarCtrl = require("../controllers/user-management/delete-car.js");
+router.delete("/:id", ensureToken, function (req, res) {
+  return deleteCarCtrl.deleteCar(req, res);
+});
+//----------------------------------------------------------------
 
 module.exports = router;

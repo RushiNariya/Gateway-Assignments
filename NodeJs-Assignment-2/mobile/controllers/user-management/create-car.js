@@ -26,6 +26,7 @@ exports.createNewCar = function (req, res) {
 
                 if(response.data[0] != null ){
 
+                    //console.log(response.data[0], '------------' + response.data[1]);
                     const sqlQuery = `insert into car (name, modelid, makeid) values (${carname}, ${response.data[0]}, ${response.data[1]});`;
 
                     dbConnection.insertCar(carname, response.data[0], response.data[1]).then(function (response) {
@@ -59,6 +60,7 @@ exports.createNewCar = function (req, res) {
             });
         });
     }
+
 
     validateFields(req, res).then(function (response) {
         createNewCar(req, response.data).then(function (response) {

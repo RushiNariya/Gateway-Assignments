@@ -30,8 +30,11 @@ exports.getCarById = function (req, res) {
 
     function getCarById(req, entityData) {
         return new Promise(function (resolve, reject) {
+
             const sqlQuery = `SELECT car.id as id, car.name as CarName, model.name as ModelName,  make.name as MakerName, array_agg(carimage.imagename) as image from car left join carimage on car.id = carimage.carid JOIN model ON car.modelid = model.id  JOIN make ON car.makeid = make.id where car.id = ${entityData.Id} GROUP BY car.id ,CarName, ModelName, MakerName order by car.id;`;
+            
             dbConnection.getResult(sqlQuery).then(function (response) {
+
                 if (response.data.length > 0) {
 
                     const temp = response.data.map((car) => {
@@ -47,14 +50,17 @@ exports.getCarById = function (req, res) {
                         }
                       })
                   
-                      response.data = [...temp] 
+                    response.data = [...temp] 
 
                     return resolve({
                         status: HttpStatusCode.StatusCodes.OK,
                         data: response,
                         message: 'Record listed successfully!!!'
                     });
-                } else {
+
+                }
+                else {
+                    
                     return resolve({
                         status: HttpStatusCode.StatusCodes.OK,
                         data: [],

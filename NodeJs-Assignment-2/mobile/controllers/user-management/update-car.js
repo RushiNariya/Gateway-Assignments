@@ -23,11 +23,12 @@ exports.updateCar = function (req, res) {
             let carname = req.body.carname;
             let makename = req.body.makename;
             let modelname = req.body.modelname;
-     
+
             dbConnection.checkUpdateCar(entityData.Id, modelname, makename).then(function(response){
 
                 if(response.data[0] != null ){
-
+                    //console.log('car exists update then');
+                    //console.log(response.data[0], '------------' + response.data[1]);
                     const sqlQuery = `UPDATE car SET name = ${carname}, modelid = ${response.data[0]}, makeid = ${response.data[1]} WHERE id = ${entityData.Id};`;
 
                     dbConnection.updateCar(carname, response.data[0], response.data[1], entityData.Id).then(function (response) {
@@ -61,6 +62,7 @@ exports.updateCar = function (req, res) {
             });
         });
     }
+
 
     validateFields(req, res).then(function (response) {
         updateCar(req, response.data).then(function (response) {

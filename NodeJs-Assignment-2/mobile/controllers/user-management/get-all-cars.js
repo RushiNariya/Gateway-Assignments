@@ -37,14 +37,17 @@ exports.getAllCars = function (req, res) {
                         }
                       })
                   
-                      response.data = [...temp] 
+                    response.data = [...temp] 
                     
                     return resolve({
                         status: HttpStatusCode.StatusCodes.OK,
                         data: response,
                         message: 'Record listed successfully!!!'
                     });
-                } else {
+
+                } 
+                else {
+                    
                     return resolve({
                         status: HttpStatusCode.StatusCodes.OK,
                         data: [],
