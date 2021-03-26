@@ -10,35 +10,36 @@ namespace Testing_Assignment_2
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            string outputString;
+            string inputString = Console.ReadLine();
 
             //Case 1
-            outputString = ExtensionMethods.StringConvert(input, "UppartoLower");
+            Console.WriteLine("UppartoLower : " + inputString.UppartoLower());
 
             //Case 2
-            outputString = ExtensionMethods.StringConvert(input, "TitleCase");
+            Console.WriteLine("TitleCase : " + inputString.TitleCase());
 
             //Case 3
-            outputString = ExtensionMethods.StringConvert(input, "Capitalized");
+            Console.WriteLine("Capitalized : " + inputString.Capitalized());
 
             //Case 4
-            outputString = ExtensionMethods.StringConvert(input, "CheckLower");
+            Console.WriteLine("CheckLower :" + inputString.CheckLower());
 
             //Case 5
-            outputString = ExtensionMethods.StringConvert(input, "CheckUppar");
+            Console.WriteLine("CheckUppar : " + inputString.CheckUppar());
 
             //Case 6
-            outputString = ExtensionMethods.StringConvert(input, "CheckforInt");
+            Console.WriteLine("CheckforInt : " + inputString.CheckforInt());
 
             //Case 7
-            outputString = ExtensionMethods.StringConvert(input, "RemoveLastChar");
+            Console.WriteLine("RemoveLastChar : " + inputString.RemoveLastChar());
 
             //Case 8
-            outputString = ExtensionMethods.StringConvert(input, "WordCount");
+            Console.WriteLine("WordCount : " + inputString.WordCount());
 
             //Case 9
-            outputString = ExtensionMethods.StringConvert(input, "StringToInt");
+            Console.WriteLine("inputString : " + inputString.StringToInt());
+
+            Console.ReadLine();
         }
     }
 }
