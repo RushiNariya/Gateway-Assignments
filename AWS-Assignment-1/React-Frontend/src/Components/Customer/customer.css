@@ -1,0 +1,45 @@
+.table {
+    margin: auto;
+    width: 100% !important; 
+ }
+
+ .scrollit {
+    overflow-x:scroll;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+
+.tableflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageResize{
+    height: 100px;
+    width: 100;
+}
+
+.imageFlex{
+    display: flex;
+    justify-content: center;
+}

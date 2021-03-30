@@ -1,0 +1,47 @@
+.table{
+  width: max-content!important;
+  margin: auto;
+}
+
+/* .user-table{
+  min-width: 80%;
+} */
+
+.table .desc {
+  max-width: 300px!important;
+  display: -webkit-inline-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.table .actions {
+  width: max-content!important;
+}
+
+.fa-icon {
+  font-size: 1.2rem;
+}
+
+
+.date-col {
+  min-width: 100px;
+}
+
+.message-col{
+  min-width: 200px;
+  width: 400px;
+}
+
+.subject-col {
+  min-width: 200px;
+}
+
+@media screen and (max-width: 1345px){
+  .table {
+    width: 100%!important;
+  }
+  .last-col {
+    min-width: 92px;
+  }
+}
