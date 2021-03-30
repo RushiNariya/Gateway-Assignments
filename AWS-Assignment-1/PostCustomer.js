@@ -6,12 +6,8 @@ const multipart = require("lambda-multipart-parser");
 const sharp = require('sharp');
 
 const AWS = require('aws-sdk');
-const ID = 'AKIA2LIQVDYS7PRKOGXP';
-const SECRET = '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';
-const s3 = new AWS.S3({
-    accessKeyId: ID,
-    secretAccessKey: SECRET
-})
+
+const s3 = new AWS.S3();
 
 
 const uploadImage = (path, file) =>
