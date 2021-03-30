@@ -49,3 +49,11 @@ D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\Uni
 D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
 D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\obj\Debug\UnitTestProject.dll
 D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\obj\Debug\UnitTestProject.pdb
+D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\bin\Debug\xunit.abstractions.dll
+D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\bin\Debug\xunit.assert.dll
+D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\bin\Debug\xunit.core.dll
+D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\bin\Debug\xunit.execution.desktop.dll
+D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\bin\Debug\xunit.abstractions.xml
+D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\bin\Debug\xunit.assert.xml
+D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\bin\Debug\xunit.core.xml
+D:\GitHub Folder\Gateway-Assignments\Testing-Assignment\Testing_Assignment-2\UnitTestProject\bin\Debug\xunit.execution.desktop.xml
